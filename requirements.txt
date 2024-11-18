@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+pandas
+sqlalchemy
+pymysql
+pdfplumber
+pillow
+pytesseract
+psutil
+streamlit-option-menu
