@@ -20,7 +20,7 @@ import pymysql
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # Configure the Google Generative AI API
-genai.configure(api_key="Replace your API key")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyCGo58KpEwlSchahYyR8GLLfRRHdnUjTRM")  # Replace with your actual API key
 model = genai.GenerativeModel('gemini-1.5-flash')  # Set the model to use
 
 # Set up logging
@@ -31,7 +31,7 @@ database_type = 'mysql+pymysql'
 username = 'root'
 password = ''
 host = 'localhost'
-database_name = 'newspaper'
+database_name = 'newspaper3'
 
 # Create the SQLAlchemy engine
 try:
